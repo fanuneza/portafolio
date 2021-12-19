@@ -35,9 +35,9 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
-        <a class="navbar-brand logo fs-1" href="#">Fabián Núñez</a>
+        <a class="navbar-brand logo fs-1" href="#">M</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -68,14 +68,16 @@
       </div>
     </nav>
 
-    <header class="hero">
-      <h1>
-        Yo soy<br />
-        <span>Fabián</span>
-      </h1>
+    <header class="hero text-center">
+      <div class="container">
+        <h1 class="mb-5">
+          Yo soy<br />
+          <span>Magdalena</span>
+        </h1>
+      </div>
     </header>
 
-    <section class="container sobre-mi text-center">
+    <section class="container sobre-mi d-none d-md-block">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis
         ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit
@@ -110,10 +112,10 @@
       </div>
     </section>
 
-    <section class="experiencia container">
+    <section class="experiencia container text-center">
       <h2>Mi Experiencia</h2>
       <hr class="separador" />
-      <div class="cargos row row-cols-5">
+      <div class="cargos row row-cols-1 row-cols-md-5">
         <article class="col">
           <i class="fas fa-feather-alt fa-5x"></i>
           <h4>Jefe de contenido</h4>
@@ -144,7 +146,7 @@
 
     <section class="ultimos-trabajos container">
       <h2>Mis últimos trabajos</h2>
-      <div class="row row-cols-3">
+      <div class="row row-cols-1 row-cols-md-3 mb-3">
         <div class="col">
           <div class="card">
             <img
@@ -194,7 +196,7 @@
           </div>
         </div>
       </div>
-      <div class="row row-cols-3">
+      <div class="row row-cols-1 row-cols-md-3">
         <div class="col">
           <div class="card">
             <img
@@ -260,13 +262,15 @@
     </section>
 
     <footer>
-      <div class="row container text-center">
-        <h4 class="logo col-6">Fabián Núñez</h4>
-        <div class="col-6">
-          <i class="fab fa-github-square fa-2x"></i>
-          <i class="fab fa-linkedin fa-2x"></i>
-          <i class="fab fa-twitter-square fa-2x"></i>
-          <i class="fab fa-facebook-square fa-2x"></i>
+      <div class="container">
+        <div class="row text-center">
+          <h4 class="logo col-md-6">Magdalena</h4>
+          <div class="col-md-6">
+            <i class="fab fa-github-square fa-2x"></i>
+            <i class="fab fa-linkedin fa-2x"></i>
+            <i class="fab fa-twitter-square fa-2x"></i>
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </div>
         </div>
       </div>
     </footer>

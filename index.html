@@ -36,8 +36,8 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <div class="container">
-        <a class="navbar-brand logo fs-1" href="#">M</a>
+      <div class="container px-5">
+        <a class="navbar-brand logo fs-1" href="#">F</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -52,16 +52,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Sobre mí</a>
+              <a class="nav-link" aria-current="page" href="#sobre-mi"
+                >Sobre mí</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiencia</a>
+              <a class="nav-link" href="#experiencia">Experiencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Trabajos</a>
+              <a class="nav-link" href="#trabajos">Trabajos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -69,22 +71,20 @@
     </nav>
 
     <header class="hero text-center">
-      <div class="container">
-        <h1 class="mb-5">
-          Yo soy<br />
-          <span>Magdalena</span>
-        </h1>
-      </div>
+      <h1 class="mb-5">
+        Yo soy<br />
+        <span class="pt-2 pt-md-1">Fabián</span>
+      </h1>
     </header>
 
-    <section class="container sobre-mi d-none d-md-block">
-      <p>
+    <section id="sobre-mi" class="container sobre-mi d-none d-md-block">
+      <h4 class="text-center mt-5 pt-3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis
         ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit
         lectus.
-      </p>
+      </h4>
       <hr class="separador" />
-      <div class="columnas">
+      <div class="columnas mt-5">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis
           ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit
@@ -112,164 +112,158 @@
       </div>
     </section>
 
-    <section class="experiencia container text-center">
-      <h2>Mi Experiencia</h2>
+    <section
+      id="experiencia"
+      class="experiencia container text-center mb-5 pb-5"
+    >
+      <h2 class="mt-5 pt-3">Mi Experiencia</h2>
       <hr class="separador" />
-      <div class="cargos row row-cols-1 row-cols-md-5">
-        <article class="col">
+      <div class="cargos row row-cols-1 row-cols-md-3 pb-5">
+        <article class="col mt-3">
           <i class="fas fa-feather-alt fa-5x"></i>
-          <h4>Jefe de contenido</h4>
-          <p>2012 - 2013</p>
+          <h5 class="mt-3">Copywriter</h5>
+          <p>2012 - 2014</p>
         </article>
-        <article class="col">
-          <i class="fas fa-headset fa-5x"></i>
-          <h4>Líder de atención al cliente</h4>
-          <p>2013 - 2015</p>
-        </article>
-        <article class="col">
-          <i class="fas fa-user-tie fa-5x"></i>
-          <h4>Líder de ventas</h4>
-          <p>2015 - 2018</p>
-        </article>
-        <article class="col">
+        <article class="col mt-3">
           <i class="fas fa-thumbs-up fa-5x"></i>
-          <h4>Líder de Customer Success</h4>
-          <p>2018 - 2021</p>
+          <h5 class="mt-3">Customer Success</h5>
+          <p>2015 - 2021</p>
         </article>
-        <article class="col">
+        <article class="col mt-3">
           <i class="fas fa-laptop-code fa-5x"></i>
-          <h4>Product Owner</h4>
+          <h5 class="mt-3">Product Owner</h5>
           <p>2021 - Presente</p>
         </article>
       </div>
     </section>
 
-    <section class="ultimos-trabajos container">
-      <h2>Mis últimos trabajos</h2>
-      <div class="row row-cols-1 row-cols-md-3 mb-3">
-        <div class="col">
-          <div class="card">
-            <img
-              src="assets/img/meet_coffee.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5>Meet & Coffee</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+    <section id="trabajos" class="ultimos-trabajos bg-dark text-dark">
+      <div class="mx-5 px-md-5 pb-5">
+        <h2 class="text-center text-light">Mis últimos trabajos</h2>
+        <hr class="separador text-light" />
+        <div class="row row-cols-1 row-cols-md-3 mt-5">
+          <div class="col mb-5">
+            <div class="card">
+              <img
+                src="assets/img/meet_coffee.png"
+                class="card-img-top"
+                alt="Meet & Coffee"
+              />
+              <div class="card-body">
+                <h5>Meet & Coffee</h5>
+                <p class="card-text">
+                  Primer trabajo de la carrera de Diseño UX/UI. Ejercicio básico
+                  de maquetado.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card">
+              <img
+                src="assets/img/iguana_page.png"
+                class="card-img-top"
+                alt="Iguana Page"
+              />
+              <div class="card-body">
+                <h5>Iguana Page</h5>
+                <p class="card-text">
+                  Maquetado HTML, CSS e integración de íconos Font Awesome.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card">
+              <img
+                src="assets/img/suricata.png"
+                class="card-img-top"
+                alt="Suricata"
+              />
+              <div class="card-body">
+                <h5>Suricata</h5>
+                <p class="card-text">
+                  Maquetado con Bootstrap. Uso de la grilla y componentes del
+                  framework.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img
-              src="assets/img/meet_coffee.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5>Meet & Coffee</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+        <div class="row row-cols-1 row-cols-md-3 pb-3">
+          <div class="col mb-5">
+            <div class="card">
+              <img
+                src="assets/img/cuppon.png"
+                class="card-img-top"
+                alt="Cuppon"
+              />
+              <div class="card-body">
+                <h5>Cuppon</h5>
+                <p class="card-text">
+                  Maquetado responsivo de clon ficticio de Groupon. Uso de
+                  grilla.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img
-              src="assets/img/meet_coffee.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5>Meet & Coffee</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+          <div class="col mb-5">
+            <div class="card">
+              <img
+                src="assets/img/ricomida.png"
+                class="card-img-top"
+                alt="Ricomida"
+              />
+              <div class="card-body">
+                <h5>Ricomida</h5>
+                <p class="card-text">
+                  Maquetado web con integración de Bootstrap, JavaScript y
+                  jQuery.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row row-cols-1 row-cols-md-3">
-        <div class="col">
-          <div class="card">
-            <img
-              src="assets/img/meet_coffee.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5>Meet & Coffee</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img
-              src="assets/img/meet_coffee.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5>Meet & Coffee</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img
-              src="assets/img/meet_coffee.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5>Meet & Coffee</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+          <div class="col mb-5">
+            <div class="card">
+              <img
+                src="assets/img/dmark.png"
+                class="card-img-top"
+                alt="Portafolio"
+              />
+              <div class="card-body">
+                <h5>Portafolio</h5>
+                <p class="card-text">
+                  Colección de proyectos para Desafío Latam. Un poco meta.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="contacto container text-center">
-      <h2>Contacto</h2>
+    <section id="contacto" class="contacto container text-center pb-5 px-5">
+      <h2 class="pt-5 mt-5">Contacto</h2>
       <hr class="separador" />
-      <p>¿Quieres conocer más de mí?</p>
+      <p class="mt-5 pt-5">¿Quieres conocer más de mí?</p>
       <button
         data-tf-popup="E1gTs8IP"
         data-tf-iframe-props="title=Contáctame"
-        class="btn btn-dark"
+        class="btn btn-dark btn-lg mt-3 mb-5"
       >
         Comenzar
       </button>
     </section>
 
-    <footer>
-      <div class="container">
-        <div class="row text-center">
-          <h4 class="logo col-md-6">Magdalena</h4>
-          <div class="col-md-6">
-            <i class="fab fa-github-square fa-2x"></i>
-            <i class="fab fa-linkedin fa-2x"></i>
-            <i class="fab fa-twitter-square fa-2x"></i>
-            <i class="fab fa-facebook-square fa-2x"></i>
+    <footer class="bg-dark text-light py-5">
+      <div class="container px-5">
+        <div class="row row-cols-2 text-center">
+          <h3 class="logo col">Fabián</h3>
+          <div class="col">
+            <i class="fab fa-github-square fa-3x mx-2"></i>
+            <i class="fab fa-linkedin fa-3x mx-2"></i>
+            <i class="fab fa-twitter-square fa-3x mx-2"></i>
+            <i class="fab fa-facebook-square fa-3x mx-2"></i>
           </div>
         </div>
       </div>

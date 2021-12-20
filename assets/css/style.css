@@ -2,6 +2,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: #373a3c;
+  position: relative;
 }
 
 h1,
@@ -51,6 +53,10 @@ nav {
   padding-bottom: 70px;
 }
 
+.navbar-brand {
+  font-size: 40px;
+}
+
 article p {
   font-size: 25px;
   font-weight: 300;
@@ -92,18 +98,27 @@ article p {
   font-weight: 300;
 }
 
+.card {
+  border: 0;
+}
+
 .contacto p {
   font-size: 20px;
 }
 
 a i {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+}
 
+p a {
+  font-weight: 700;
+  text-decoration-style: dotted;
+  color: #25283d;
 }
 
 footer a:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 #sobre-mi,
@@ -113,6 +128,22 @@ footer a:hover {
   padding-top: 5em;
   margin-top: -5em;
 }
+
+/* Colores */
+
+h2,
+h5,
+.experiencia i {
+  color: #25283d;
+}
+
+.bg-dark,
+.navbar-dark,
+.btn-dark {
+  background-color: #25283d !important;
+}
+
+/* Móvil */
 
 @media (max-width: 576px) {
   .hero {

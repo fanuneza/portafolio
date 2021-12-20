@@ -32,7 +32,7 @@ h2 {
 }
 
 h3 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 h4 {
@@ -52,8 +52,8 @@ nav {
 }
 
 article p {
-    font-size: 25px;
-    font-weight: 300;
+  font-size: 25px;
+  font-weight: 300;
 }
 
 .logo {
@@ -84,16 +84,26 @@ article p {
 }
 
 .ultimos-trabajos h5 {
-    font-size: 23px;
+  font-size: 23px;
 }
 
 .ultimos-trabajos p {
-    font-size: 16px;
-    font-weight: 300;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .contacto p {
-    font-size: 20px;
+  font-size: 20px;
+}
+
+a i {
+    text-decoration: none;
+    color: white;
+
+}
+
+footer a:hover {
+    opacity: 0.6;
 }
 
 #sobre-mi,
@@ -119,5 +129,17 @@ article p {
     bottom: 0;
     left: 0;
     right: 0;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  i {
+    font-size: 40px !important;
   }
 }
